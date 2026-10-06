@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "Akwete",
+    "slug": "akwete-shop",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "akwete",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#f6f2e8"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.akwete.shop"
+    },
+    "android": {
+      "package": "com.akwete.shop",
+      "adaptiveIcon": {
+        "backgroundColor": "#f6f2e8",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      "expo-web-browser"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "141ba315-4f70-45e9-a1fe-185adbdd9761"
+      }
+    }
+  }
+}
